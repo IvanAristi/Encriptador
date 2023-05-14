@@ -66,8 +66,7 @@ botonEncriptar.addEventListener('click', function() {
         textoEncriptado += texto2.charAt(i);
       }
 
-    }
-
+    } 
       document.getElementById ("parrafo1").value = textoEncriptado; 
    mensaje.textContent = textoEncriptado;
   mensaje2.textContent = "mensaje encriptado con exito";
@@ -116,7 +115,7 @@ botonDesencriptar.addEventListener('click', function() {
    mensaje.textContent = textoDesencriptado;
      imag.src = "img/images (1).jpg";
   mensaje2.textContent = "MENSAJE DESENCRIPTADO CON EXITO";
-
+  
   }else{
     alert("no hay texto para desencriptar");
    imag.src="img/descarga.jpg"
@@ -125,11 +124,11 @@ botonDesencriptar.addEventListener('click', function() {
   }
 });
 
+/*Pruebakj DE BUSQUEDA*/
 
 
 
-
-
+/*PRUEBAjj DE BUSQUEDA*/
 
 
 
